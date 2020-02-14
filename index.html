@@ -29,6 +29,7 @@
         </a>
         <button
           class="navbar-toggler"
+          id="navButton"
           type="button"
           data-toggle="collapse"
           data-target="#navigationLinks"
@@ -50,7 +51,17 @@
       </nav>
     </header>
     <h1>Hello, world!</h1>
-
+    <!-- <script>
+      const elementTest = document.getElementById("navButton").innerHTML;
+      const flo = elementTest => {
+        if (elementTest.classList.contains("collapsed")) {
+          return;
+        } else {
+          document.getElementById("test").className += "ml-auto";
+        }
+      };
+      // document.getElementById('test').className += 'ml-auto';
+    </script> -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
