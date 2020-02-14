@@ -1,0 +1,22 @@
+{
+  "name": "coffeebrothers",
+  "version": "1.0.0",
+  "description": "A website of a nice little coffeehouse around the corner.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/florianGierlichs/CoffeeBrothers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/florianGierlichs/CoffeeBrothers/issues"
+  },
+  "homepage": "https://github.com/florianGierlichs/CoffeeBrothers#readme",
+  "dependencies": {
+    "htmlhint": "^0.11.0"
+  }
+}
